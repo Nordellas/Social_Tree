@@ -1,4 +1,24 @@
+/*GERAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --body-bg-color: hsl(270, 60%, 98%);
   --purple: hsl(270, 50%, 73%);
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body
+{
+  font-family: Poppins;
+  font-size: 1.6rem;
+
+  text-align: center;
+
+  background-color: var(--body-bg-color);
 }
