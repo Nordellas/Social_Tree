@@ -1,12 +1,14 @@
 /*GERAL*/
 
-* {
+* 
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
+:root 
+{
   --body-bg-color: hsl(270, 60%, 98%);
   --purple: hsl(270, 50%, 73%);
 
@@ -19,6 +21,89 @@ body
   font-size: 1.6rem;
 
   text-align: center;
+  justify-content: center;
 
   background-color: var(--body-bg-color);
+  color: var(--purple);
+}
+
+a
+{
+  text-decoration: none;
+}
+
+/*PRIMEIRA PARTE*/
+
+.firstPart
+{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20.7rem;
+  margin-bottom: 6.6rem;
+}
+ 
+.firstPart img 
+{
+  width: 20rem;
+  height: 20rem;
+  left: 61.9rem;
+  top: 20.7rem;
+
+  border: 2px solid var(--purple);
+  border-radius: 11rem;
+
+  padding: 5px;
+}
+
+.firstPart p
+{
+  width: 9.9rem;
+  height: 2.4rem;
+  left: 66.9rem;
+  top: 42.9rem;
+  
+  color: var(--purple);
+}
+
+/*SEGUNDA PARTE*/
+
+.secondPart
+{
+  display: flex;
+  
+}
+
+.box 
+{
+  border: 2px solid var(--purple);
+  width: 32.6rem;
+  height: 4.9rem;
+
+  top: 48.6rem;
+  
+  margin-bottom: 1.6rem;
+  border-radius: 0.4rem;
+
+  font-weight: 600;
+  
+  text-decoration: none;
+}
+
+/*ÚLTIMA PARTE*/
+
+.finalPart ul
+{
+  display:flex;
+  flex-direction: row;
+  gap: 2.9rem;
+  justify-content: space-evenly;
+
+  width: 23.6rem;
+  height: 2.4rem;
+
+  list-style: none;
 }
