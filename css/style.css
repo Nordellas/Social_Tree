@@ -57,6 +57,18 @@ a
   border-radius: 16rem;
 
   padding: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstPart img:hover
+{
+  transition: 200ms;
+  padding: 0px;
+
+  border: none;
 }
 
 .firstPart p
@@ -69,6 +81,20 @@ a
   color: var(--purple);
 
   margin-top: 1rem;
+
+  letter-spacing: .6rem;
+  text-shadow: red 0 0, cyan 0 0;
+  transition: text-shadow 200ms;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstPart p:hover
+{
+  text-shadow: red -0.6rem 0, cyan 0.6rem 0;
+  transition: 100ms;
 }
 
 /*SEGUNDA PARTE*/
@@ -81,8 +107,12 @@ a
   justify-content: center;
 }
 
-.box 
+.box
 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border: 2px solid var(--purple);
   width: 32.6rem;
   height: 4.9rem;
@@ -93,8 +123,22 @@ a
   border-radius: 0.4rem;
 
   font-weight: 600;
+
+  color: var(--purple);
+  background-color: var(--body-bg-color);
+
+  letter-spacing: .6rem;
+  text-shadow: red 0 0, cyan 0 0;
+  transition: tex-shadow 200ms;
 }
 
+.box:hover
+{  
+  text-shadow: red -0.6rem 0, cyan 0.6rem 0;
+  border: 2px solid black;
+
+  transition: 100ms;
+}
 
 /*ÚLTIMA PARTE*/
 
@@ -116,7 +160,5 @@ a
   width: 23.6rem;
   height: 2.4rem;
 
-  list-style: none;
-
-  
+  list-style: none;  
 }
