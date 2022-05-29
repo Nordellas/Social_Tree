@@ -37,17 +37,25 @@ a
 a:link
 {
   text-decoration: none;
-
-  color: black;
 }
 
 a:hover 
 {
   text-decoration: none;
-
-  color: black;
  }
 
+ ::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--purple);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+  background: var(--body-bg-color);
+  border-radius: 10px;
+}
 /*PRIMEIRA PARTE*/
 
 .firstPart
@@ -112,7 +120,9 @@ a:hover
 .firstPart p:hover
 {
   text-shadow: red -0.6rem 0, cyan 0.6rem 0;
-  transition: 100ms;
+  transition: 150ms;
+
+  text-decoration: underline;
 }
 
 /*SEGUNDA PARTE*/
@@ -155,7 +165,7 @@ a:hover
   text-shadow: red -0.6rem 0, cyan 0.6rem 0;
   border: 2px solid black;
 
-  transition: 100ms;
+  transition: 200ms;
 }
 
 /*ÚLTIMA PARTE*/
@@ -181,5 +191,16 @@ a:hover
   list-style: none;  
 }
 
-.end svg{fill: var(--body-bg-color);}
-.end svg:hover{fill: black; opacity: 0.5; transition: 200ms;}
+.end svg
+{
+  fill: var(--body-bg-color);
+}
+
+.end svg:hover
+{
+  fill: black;
+  opacity: 0.5;
+  transition: 200ms;
+}
+
+/*RESPONSIVISDADE (ainda será feito)*/
